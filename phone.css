@@ -1,0 +1,82 @@
+@media (max-width: 700px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    flex: 1;
+    padding: 1rem;
+    max-height: 100%;
+  }
+  .right {
+    flex: 1;
+    padding: 1rem;
+    height: 100% !important;
+  }
+  .view {
+    width: 80%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    color: white;
+  }
+
+  .rightpart {
+    width: 50%;
+    color: white;
+    display: none;
+  }
+
+  .leftpart {
+    width: 100%;
+    text-align: center;
+    color: rgb(113, 159, 196);
+  }
+  .mid {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .btns button {
+    width: 100%;
+    border-radius: 1px;
+  }
+  .details {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .left {
+    flex: 3;
+    padding: 0rem;
+  }
+  .right {
+    flex: 7;
+    padding: 0rem;
+  }
+  .box {
+    background: rgb(254, 255, 255);
+    padding: 0rem;
+    margin: 0rem;
+    border: none;
+  }
+  .bottom {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .container {
+    padding: 1.2rem;
+  }
+  .btns {
+    padding: 1rem;
+  }
+  nav h2 {
+    padding: 0;
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+  .details p {
+    overflow: hidden;
+  }
+}

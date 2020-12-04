@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------- */
+.bg-primary {
+  background-color: steelblue;
+}
+.bg-secondary {
+  background-color: #14a76c;
+}
+.bg-light {
+  background-color: grey;
+}
+
+.bg-3 {
+  background-color: darkcyan;
+}
+.bg-last {
+  background-color: orange;
+}
+
+/* --------------------- */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5rem;
+}
+nav {
+  background: steelblue;
+  color: white;
+}
+nav h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 1.3rem 0rem;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0rem 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin: 1rem 0rem;
+  border: 1px solid steelblue;
+  border-radius: 2px;
+  box-shadow: 1px 0.2px 3px steelblue;
+}
+input:focus {
+  outline-color: rgb(123, 191, 247);
+}
+.box {
+  border: 1px solid rgb(222, 224, 233);
+  background: rgb(254, 255, 255);
+  padding: 0rem 2rem;
+  margin: 3rem 0rem;
+}
+.ptag {
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgb(110, 109, 109);
+}
+
+.box h1 {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+/* ---------------------------------------------- */
+.top {
+  display: flex;
+}
+.left {
+  flex: 3;
+  padding: 2rem 0rem;
+}
+.right {
+  flex: 7;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  min-height: 100%;
+  border-radius: 1rem;
+}
+/* ------------------------------------- */
+
+.details p {
+  padding: 1rem;
+  border: 1px solid rgb(226, 225, 225);
+  border-bottom: none;
+  overflow: hidden;
+}
+.details p:last-child {
+  border-bottom: 1px solid rgb(226, 225, 225);
+}
+.details {
+  margin-top: 2rem;
+}
+.btns button,
+.btn {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 3px 0px;
+}
+.btns button:focus,
+.btn {
+  outline: rgb(254, 255, 255);
+}
+
+.view {
+  width: 28%;
+  border-radius: 2rem;
+  padding: 1rem;
+  border: none;
+  color: white;
+}
+.view:focus {
+  outline-color: rgb(254, 255, 255);
+}
+
+.bottom {
+  margin-bottom: 1rem;
+}
+
+.repo {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgb(236, 236, 236);
+}
+.leftpart {
+  width: 50%;
+  color: rgb(113, 159, 196);
+}
+.rightpart {
+  width: 50%;
+  color: white;
+}
+
+section {
+  /* display: none; */
+  display: block;
+}
